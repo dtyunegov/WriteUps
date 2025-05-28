@@ -2,12 +2,17 @@
 
 **What service do we identify on port 23/tcp during our scans?**
 - telnet
+
 ![](../src/images/Pasted%20image%2020250528154323.png)
 
 **What username is able to log into the target over telnet with a blank password?**
-root
+- root
 
 ![](../src/images/Pasted%20image%2020250528154520.png)
 
 **Submit root flag**
 В общем, получаем сам флаг и сдаем.
+```
+ls
+cat flag.txt
+```
