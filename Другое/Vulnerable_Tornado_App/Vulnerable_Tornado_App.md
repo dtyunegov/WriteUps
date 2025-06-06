@@ -37,7 +37,7 @@ https://github.com/ajinabraham/Vulnerable_Tornado_App
 
 а также найдено название хоста 1427771-cg36175.tw1.ru
 
-![](src/images/Pasted%20image%2020250514083959.png)
+![](../../src/images/Pasted%20image%2020250514083959.png)
 
 #### Nikto
 - Отсутствует заголовок X-Frame-Options
