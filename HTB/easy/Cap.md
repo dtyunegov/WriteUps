@@ -4,7 +4,7 @@
 Просканируем сервис и посмотрим какие порты открыты
 `rustscan -a <ip>`
 
-![](../src/images/Pasted%20image%2020250518140047.png)
+![](../../src/images/Pasted%20image%2020250518140047.png)
 
 Т.к. доступен 80 порт(http), то можно погулять по веб-морде и посмотреть что там есть.
 
@@ -38,19 +38,19 @@ IDOR (Insecure Direct Object Reference, небезопасные прямые с
 **What is the ID of the PCAP file that contains sensative data?
 - 0
 
-![](../src/images/Pasted%20image%2020250507005235.png)
+![](../../src/images/Pasted%20image%2020250507005235.png)
 
 Скачиваем файл, файл расширения .pcap, это файл, который содержит пакетные данные в сети, а значит можем открыть его с помощью wireshark.
 
 Немного исследуем дамп и находим следующую запись. Думаю, пояснения не нужны, так что идем авторизовываться в FTP.
-![](../src/images/Pasted%20image%2020250507010636.png)
+![](../../src/images/Pasted%20image%2020250507010636.png)
 
 `ftp nathan@10.10.10.245` Вводим пароль(Buck3tH4TF0RM3!), успех! 
 Дальше достаем текст из файла user.txt
-![](../src/images/Pasted%20image%2020250507013948.png)
+![](../../src/images/Pasted%20image%2020250507013948.png)
 
 Этот же пароль подходит и для ssh
-![](../src/images/Pasted%20image%2020250507014113.png)
+![](../../src/images/Pasted%20image%2020250507014113.png)
 
 **Submit the flag located in the nathan user's home directory.**
 - 41518ae6ff5a488fba0b0f997f3c2a94
@@ -86,6 +86,6 @@ os.system("/bin/bash")
 
 Выполним данный скрипт и проверим права, теперь мы root:
 
-![](../src/images/Pasted%20image%2020250518124409.png)
+![](../../src/images/Pasted%20image%2020250518124409.png)
 
 Остается прочитать файл /root/root.txt и забрать флаг.

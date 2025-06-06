@@ -72,7 +72,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 С помощью `searchsploit` посмотрим какие есть уязвимости для `vsftpd`. Для версии 2.3.4 видим бэкдор `https://www.exploit-db.com/exploits/49757`.  (`searchsploit vsftpd 2.3.4 -w`)
 
-![](../src/images/Pasted%20image%2020250424101511.png)
+![](../../src/images/Pasted%20image%2020250424101511.png)
 
 Из вывода nmap ранее мы видим что подключиться к 21 порту можно анонимно.
 
@@ -84,7 +84,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 `msf6 > set RHOST <ip>` -задание адреса атакуемой машины
 `msf6 > run` - эксплуатация уязвимости
 
-![](../src/images/Pasted%20image%2020250424102121.png)
+![](../../src/images/Pasted%20image%2020250424102121.png)
 
 Из вывода следует, что данная уязвимость недоступна.
 
@@ -104,7 +104,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 **What 2007 CVE allows for remote code execution in this version of Samba via shell metacharacters involving the `SamrChangePassword` function when the "username map script" option is enabled in `smb.conf`?**
 - CVE-2007-2447
 
-![](../src/images/Pasted%20image%2020250424105000.png)
+![](../../src/images/Pasted%20image%2020250424105000.png)
 
 Данная уязвимость позволяет выполнить обратное подключение. 
 
@@ -124,7 +124,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Ответ на вопрос **Submit the flag located in root's home directory.**
 находится по адресу root/root.txt
 
-![](../src/images/Pasted%20image%2020250424133337.png)
+![](../../src/images/Pasted%20image%2020250424133337.png)
 
 На этом прохождение машины закончены, но остались еще вопросы. 
 
@@ -132,7 +132,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 Выполним данную команду `netstat -tnlp` и посмотрим сколько портов открыто. 
 
-![](../src/images/Pasted%20image%2020250424134801.png)
+![](../../src/images/Pasted%20image%2020250424134801.png)
 
 Ответом на данный вопрос будет являться - firewall
 
