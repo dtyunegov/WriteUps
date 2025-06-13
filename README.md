@@ -2,9 +2,10 @@
 
 ### HackTheBox
 
-- **Стартовые (Очень легко)**
-	- [Cat](HTB/starting%20point/Cat.md) (https://app.hackthebox.com/starting-point) 
-	- [Fawn](HTB/starting%20point/Fawn.md) (https://app.hackthebox.com/starting-point)
+- **Стартовые (Очень легко)** (https://app.hackthebox.com/starting-point)
+	- [Cat](HTB/starting%20point/Cat.md) 
+	- [Fawn](HTB/starting%20point/Fawn.md)
+	- [Dancing](HTB/starting%20point/Dancing.md)
 
 
 - **Легкий**
