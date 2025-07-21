@@ -24,5 +24,13 @@
 	- [8. Lab. SQL injection UNION attack, finding a column containing text](portswigger/sqlInjection/8.%20Lab.%20SQL%20injection%20UNION%20attack,%20finding%20a%20column%20containing%20text.md)
 	- [9. Lab. SQL injection UNION attack, retrieving data from other tables](portswigger/sqlInjection/9.%20Lab.%20SQL%20injection%20UNION%20attack,%20retrieving%20data%20from%20other%20tables.md)
 	- [10. Lab. SQL injection UNION attack, retrieving multiple values in a single column](portswigger/sqlInjection/10.%20Lab.%20SQL%20injection%20UNION%20attack,%20retrieving%20multiple%20values%20in%20a%20single%20column.md)
+- **XSS**
+	- [1. Reflected XSS into HTML context with nothing encoded](portswigger/XSS/1.%20Reflected%20XSS%20into%20HTML%20context%20with%20nothing%20encoded.md)
+	- [2.  Stored XSS into HTML context with nothing encoded](portswigger/XSS/2.%20%20Stored%20XSS%20into%20HTML%20context%20with%20nothing%20encoded.md)
+	- [3 DOM XSS in `document.write` sink using source `location.search`](portswigger/XSS/3%20DOM%20XSS%20in%20`document.write`%20sink%20using%20source%20`location.search`.md)
+	- [4 DOM XSS in `innerHTML` sink using source `location.search`](portswigger/XSS/4%20DOM%20XSS%20in%20`innerHTML`%20sink%20using%20source%20`location.search`.md)
+	- [5 DOM XSS in jQuery anchor `href` attribute sink using `location.search` source](portswigger/XSS/5%20DOM%20XSS%20in%20jQuery%20anchor%20`href`%20attribute%20sink%20using%20`location.search`%20source.md)
+	- [6 DOM XSS in jQuery selector sink using a hashchange event](portswigger/XSS/6%20DOM%20XSS%20in%20jQuery%20selector%20sink%20using%20a%20hashchange%20event.md)
+	- [7 Reflected XSS into attribute with angle brackets HTML-encoded](portswigger/XSS/7%20Reflected%20XSS%20into%20attribute%20with%20angle%20brackets%20HTML-encoded.md)
 ### Другое
  - Пентест [Vulnerable_Tornado_App](Другое/Vulnerable_Tornado_App/Vulnerable_Tornado_App.md)
